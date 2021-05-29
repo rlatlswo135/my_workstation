@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100vh;
+  height: 100vh;
+}
+#main_title {
+  color: gold;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+#header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(69, 69, 156);
+  width: 100vw;
+  height: 13%;
+}
+.header_menu {
+  margin-right: 0px;
+  font-size: 1.1rem;
+  font-style: oblique;
+  font-weight: 500;
+  color: gold;
+}
+.header_img {
+  width: 2em;
+}
+div {
+  box-sizing: border-box;
+  width: 50px;
+  height: 20px;
+}
